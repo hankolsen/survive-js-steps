@@ -43,7 +43,7 @@ const commonConfig = {
 
 module.exports = (env) => {
 	if (env === 'production') {
-		return productionConig();
+		return productionConfig();
 	}
 
 	return developmentConfig();;
